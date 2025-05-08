@@ -55,6 +55,6 @@ cd Portfolio
 ##📬** Connect with Me**
 📧 Email: ayushi.mishra2609@gmail.com
 
-💼 LinkedIn:https://www.linkedin.com/in/ayushi-mishra-1677411aa/
+💼 LinkedIn:(https://www.linkedin.com/in/ayushi-mishra-1677411aa/)
 
-🌐 Portfolio: https://github.com/Ayushimishra2609/Portfolio
+🌐 Portfolio: (https://github.com/Ayushimishra2609/Portfolio)
