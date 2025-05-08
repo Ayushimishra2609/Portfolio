@@ -51,3 +51,10 @@ Whether it's HTML/CSS or JavaScript magic, I enjoy turning ideas into interactiv
 git clone https://github.com/Ayushimishra2609/Portfolio.git
 cd Portfolio
 # Open index.html in your browser or use Live Server in VS Code
+
+##📬** Connect with Me**
+📧 Email: ayushi.mishra2609@gmail.com
+
+💼 LinkedIn:https://www.linkedin.com/in/ayushi-mishra-1677411aa/
+
+🌐 Portfolio: https://github.com/Ayushimishra2609/Portfolio
