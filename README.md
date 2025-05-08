@@ -52,9 +52,11 @@ git clone https://github.com/Ayushimishra2609/Portfolio.git
 cd Portfolio
 # Open index.html in your browser or use Live Server in VS Code
 
-##📬** Connect with Me**
+
+
+##📬 Connect with Me
 📧 Email: ayushi.mishra2609@gmail.com
 
-💼 LinkedIn:(https://www.linkedin.com/in/ayushi-mishra-1677411aa/)
+💼 LinkedIn: Ayushi Mishra
 
-🌐 Portfolio: (https://github.com/Ayushimishra2609/Portfolio)
+🌐 Portfolio: https://github.com/Ayushimishra2609/Portfolio
