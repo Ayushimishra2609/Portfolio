@@ -11,7 +11,7 @@
 <div id="header">
 <div class="container">
     <nav>
-        <img src="images/logo .png" class="logo">
+        <img src="images/logo.png" class="logo">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
@@ -21,8 +21,8 @@
         </ul>
     </nav>
 <div class="header-text">
-    <p> Frontend Developer</p>
-    <h1> Hi, I'm <span>Ayushi</span><br>Mishra From India</h1>
+    <p> Hello! It's Me</p>
+    <h1> <span>Ayushi</span> Mishra<br> And I'm a <span>Frontend</span> Developer</h1>
 </div>
 </div>
 
@@ -36,10 +36,63 @@
             <img src="images/user.png" alt="">
         </div>
         <div class="about-col-2">
-            <h1>About me</h1>
+            <h1 class="sub-title">About me</h1>
+            <p> I am a dedicated frontend developer based in Bangalore with a strong academic background in computer applications (BCA) and currently pursuing an MCA. With nearly two years of experience at TCS, I have developed a solid foundation in IT and am now focused on transitioning into a full-time frontend development role. I specialize in building responsive, scalable, and visually engaging web interfaces, and I am committed to continuously enhancing my technical skills with the goal of becoming a full-stack developer. I take pride in writing clean, maintainable code and delivering user-centric digital solutions. </p>
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')"> Skills </p>
+            <p class="tab-links" onclick="opentab('experience')"> Experience </p>
+            <p class="tab-links" onclick="opentab('education')"> Education </p>
+        </div>
+        
+        <div class="tab-contents active-tab" id="skills">
+
+            <ul> 
+                <li><span>UI/UX</span><br>Designing Web App interfaces</li>
+                <li><span>Web development</span><br> Web App development</li>
+                <li><span>App development</span><br>Buiding Android/IOS apps</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+        <ul>
+            <li><span>September 2023 - Current </span><br>Frontend Developer at TCS</li>
+            </ul>
+            
+            
+        </div>
+        <div class="tab-contents" id="education">
+
+            <ul> 
+                <li><span>Persuing</span><br>MCA From LPU</li>
+                <li><span>2019 - 2022</span><br> BCA From Bareilly College</li>
+                <li><span>2018 - 2019</span><br>Intermediate</li>
+                <li><span>2016 - 2017</span><br>HighSchool</li>
+            </ul>
+        </div>
         </div>
     </div>
     </div>
 </div>
+
+
+<script> 
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+
+        for(tablink of tablinks){
+
+            tablink.classList.remove("active-links");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontents.classList.remove("active-tab");
+        }
+       event.currentTarget.classList.add("active-link")
+    }
+
+
+</script>
     </body>
 </html>
