@@ -7,6 +7,7 @@
         <title>Personal Portfolio Website -Ayushi Mishra</title>
         <link rel="stylesheet" href="style.css">
     </head>
+    <script src="https://kit.fontawesome.com/be54e54f2b.js" crossorigin="anonymous"></script>
     <body>
 <div id="header">
 <div class="container">
@@ -72,7 +73,92 @@
     </div>
     </div>
 </div>
+<!-- --------------------------services------------------ -->
 
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p> I create modern, responsive, and visually appealing websites tailored to provide a smooth and engaging user experience. Every design is crafted with attention to detail, usability, and brand identity. </p>
+        <a href="#">Learn more</a>
+        </div>
+
+        <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p> I design intuitive and user-centric interfaces that enhance usability and deliver a seamless digital experience. My focus is on creating clean, functional, and aesthetically pleasing designs that align with user needs and business goals. </p>
+        <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-mobile-screen"></i>
+            <h2>App Design</h2>
+            <p> I design sleek and user-friendly mobile app interfaces that offer a smooth and engaging experience across all devices. My goal is to create intuitive designs that combine functionality with a modern look and feel. </p>
+        <a href="#">Learn more</a>
+        </div>
+        </div>
+    </div>
+</div>
+
+<!--------------------portfolio----------------->
+<div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>  
+      <div class="work-list">
+        <div class="work">
+            <img src="images/work-1.png">
+            <div class="layer">
+                <h3>College App</h3>
+                
+            <p>online admission system designed for educational institutions to manage student applications efficiently. Features include student registration, course selection, application tracking, and admin approval — all in a user-friendly and secure interface.</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+        </div>
+        <div class="work">
+            <img src="images/work-2.png">
+             <div class="layer">
+                <h3>Social Media App</h3>
+                
+            <p>The app is a a dynamic and interactive social media app focused on real-time engagement, seamless user experience, and modern UI. Features include user profiles, posts, likes, comments, and a responsive feed — all crafted to boost connectivity and user interaction.</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+        </div>
+        <div class="work">
+            <img src="images/work-3.png">
+             <div class="layer">
+                <h3>Online Shopping App</h3>
+                
+            <p>Built a modern and responsive e-commerce app that offers seamless product browsing, cart management, secure checkout, and user authentication. Designed to deliver a smooth shopping experience with clean UI and real-time functionality.</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+        </div>
+      </div>
+      <a href="#" class="btn"> See More</a>
+    </div>
+</div>
+
+<!------------------------contact----------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me</h1>
+                <p>umamishra2609@gmail.com</p>
+                <p>+91 9084128881</p>
+            <div class="social-icon">
+                <a href="https://github.com/Ayushimishra2609"><i class="fa-brands fa-square-github"></i></a>
+                <a href="https://x.com/AYUSHIM77448740"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/im_ayushimishra26?igsh=MXF1Nm96M2Rpc2s4dQ=="><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/ayushi-mishra-1677411aa/"><i class="fab fa-linkedin"></i></a>
+            </div>
+            </div>
+            <div class="contact-right"></div>
+        </div>
+    </div>
+</div>
 
 <script> 
 
@@ -82,16 +168,15 @@
     function opentab(tabname){
 
         for(tablink of tablinks){
-
-            tablink.classList.remove("active-links");
+             tablink.classList.remove("active-links");
         }
 
         for(tabcontent of tabcontents){
-            tabcontents.classList.remove("active-tab");
+            tabcontent.classList.remove("active-tab");
         }
        event.currentTarget.classList.add("active-link")
+       document.getElementById(tabname).classList.add("active-tab")
     }
-
 
 </script>
     </body>
